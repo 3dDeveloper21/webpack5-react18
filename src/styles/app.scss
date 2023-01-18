@@ -1,0 +1,19 @@
+// @import "./font.scss";
+
+@font-face {
+  font-family: 'OpenSans-Italic';
+  src: url('../Assets/fonts/OpenSans-Italic.ttf'), format('truetype');
+}
+
+.container {
+  height: 100vh;
+  background-color: #3ba7de;
+  .header {
+      padding: 15px 20px;
+      background-color: #6200EE;
+      h1 {
+          color: rgb(193, 82, 160);
+          font-family: 'OpenSans-Italic';
+      }
+  }
+}
